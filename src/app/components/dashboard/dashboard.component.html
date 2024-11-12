@@ -1,0 +1,35 @@
+<mat-sidenav-container>
+    <!-- Sidebar -->
+    <mat-sidenav mode="side" opened class="sidebar">
+      <div class="sidebar-icons">
+        <div class="icon">🏠</div>
+        <div class="icon">📊</div>
+        <div class="icon">⚙️</div>
+      </div>
+    </mat-sidenav>
+  
+    <mat-sidenav-content>
+      <!-- Toolbar with Date Filters and Last Update Info -->
+      <mat-toolbar class="toolbar">
+        <div class="toolbar-content">
+          <span class="date-filters">Today | Yesterday | Last Week</span>
+          <span class="update-info">20s Last Update</span>
+        </div>
+      </mat-toolbar>
+  
+      <!-- Summary Cards Row -->
+      <div class="summary-cards">
+        <app-summary-card ></app-summary-card>
+        <app-summary-card ></app-summary-card>
+        <app-summary-card ></app-summary-card>
+        <app-summary-card ></app-summary-card>
+      </div>
+  
+      <!-- Main Content: Sales Chart and Station List -->
+      <div class="content">
+        <app-sales-chart></app-sales-chart>
+        <app-station-list></app-station-list>
+      </div>
+    </mat-sidenav-content>
+  </mat-sidenav-container>
+  

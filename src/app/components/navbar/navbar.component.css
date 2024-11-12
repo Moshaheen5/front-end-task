@@ -1,0 +1,96 @@
+
+.toolbar {
+  padding: 10px;
+  font-size: 8px;
+  width: 100%;
+  z-index: 0;
+  background-color: rgb(211, 211, 211);
+}
+.info-section {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    color: #444;
+}
+  
+  .info-section i {
+    font-size: 22px;
+    color: #d16e5b; /* Custom color for icons */
+  }
+  
+  .info-section span {
+    margin-left: 2px;
+    color: #444;
+    font-size: 14px;
+  }
+  
+  /* Date Tabs Styling */
+  .date-tabs {
+    display: flex;
+    background-color: gray;
+    border-radius: 20px;
+    align-items: center;
+    
+  }
+  
+  .tab {
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    background-color: gray;
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .tab.active {
+    background-color: #ff8566;
+    color: #fff;
+  }
+  
+  /* Date Range Pickers Styling */
+  .date-range {
+    display: flex;
+    margin-right: 114px;
+    
+  }
+  
+  .date-picker {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    color: #444;
+  }
+  
+  .date-picker i {
+    font-size: 25px;
+    color: #ff8566;
+    margin-left: 20px;
+  }
+  
+  .date-picker span {
+    margin-left: 2px;
+    color: #444;
+    font-size: 14px;
+  }
+  
+  .date-picks {
+    border: none;
+    border-bottom: 1px solid black;
+    padding: 2px 5px;
+    color: #444;
+    font-size: 10px;
+  }
+  .date-picks i{
+    font-size: 12px;
+    margin-left: 10px;
+}
+  
+
+  
+  
+  .toolbar-content {
+    display: flex;
+    justify-content: space-between;
+  }

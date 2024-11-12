@@ -1,0 +1,31 @@
+<mat-card class="station-card">
+    <div class="station-info">
+      <h3><i class="material-icons">local_gas_station</i> Station Name: {{ stationName }}</h3>
+      <div class="row">
+        <div class="col-md-2">
+          <p class="data">Total Sales:</p> 
+          <p class="data">Max Transaction /Hour:</p> 
+        </div>
+        <div class="col-md-2">
+          <p>{{ totalSales }}</p>
+          <p class="mt-4">{{ maxTransactionPerHour }}</p>
+        </div>
+        <div class="col-md-2">
+          <p class="data">Compression State:</p> 
+          <p class="data">total Transaction count:</p> 
+        </div>
+        <div class="col-md-2">
+          <p>{{ compressionState }}</p>
+          <p class="mt-4">{{totalTransactioncount}}</p>
+        </div>
+        <div class="col-md-2">
+          <p class="data">total Value:</p> 
+          <p class="data">Max Transaction Date/time:</p> 
+        </div>
+        <div class="col-md-2">
+          <p>{{ totalValue }}</p>
+          <p>{{MaxTransactionDatetime}}</p>
+        </div>
+      </div>
+    </div>
+  </mat-card>

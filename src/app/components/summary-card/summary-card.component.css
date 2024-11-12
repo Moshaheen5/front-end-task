@@ -1,0 +1,22 @@
+h4{
+    font-weight:bold ;
+    text-align: center;
+}
+i {
+    font-size: 18px;
+    color: #d16e5b; /* Custom color for icons */
+}
+span{
+    font-size: 14px;
+}
+.data{
+    width: 65%;
+    margin: auto;
+}
+.line{
+background-color: #d16e5b;
+width: 55%;
+height: 2px;
+margin-inline:auto ;
+margin-bottom: 20px;
+}

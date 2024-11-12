@@ -1,0 +1,23 @@
+.station-card {
+    padding: 15px;
+    background-color: #fff;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+    margin-block: 15px;
+  }
+  .station-info h3 {
+    margin-bottom: 10px;
+    font-size: 22px;
+  }
+  .station-info p {
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.76);
+  }
+   i {
+    font-size: 22px;
+    color: #d16e5b; /* Custom color for icons */
+  }
+   p.data {
+    font-weight: 700;
+    width: 150px;
+    display: inline-block;
+  }
